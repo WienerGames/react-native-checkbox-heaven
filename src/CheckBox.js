@@ -45,7 +45,7 @@ class CheckBox extends Component {
     };
 
     componentWillMount() {
-        this.state = { checked: this.props.checked }
+        this.setState({ checked: this.props.checked })
     }
 
     componentWillReceiveProps(props) {
